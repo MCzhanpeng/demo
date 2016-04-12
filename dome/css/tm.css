@@ -1,0 +1,51 @@
+*{margin:0;padding:0;list-style:none}
+#header,#body,#footer{width:100%;min-width:1250px;}
+#header .top{background:#EE0A3B;text-align:center;}
+#header .nav{width:100%;border:1px solid #ccc;background:#f2f2f2;height:25px;}
+.center{margin:auto;width:1250px;}
+#header .nav ul.left{height:25px;line-height:25px;float:left;}
+#header .nav ul.left li{float:left;margin:0 15px;}
+#header .nav ul.right{height:25px;line-height:25px;float:right;}
+#header .nav ul.right li{float:right;position:relative;margin:0 10px;}
+#header .nav ul.right li span.em{border:5px solid black;border-left:5px solid #f2f2f2;border-bottom:5px solid #f2f2f2;border-right:5px solid #f2f2f2;position:absolute;right:-10px;top:10px;}
+#header .nav a{color:#999;text-decoration:none;}
+#header .nav ul.right li:hover span.em{transform:rotate(180deg);transition:transform 0.5s;top:5px;}
+#header .nav a:hover{color:#c40000;text-decoration:underline;}
+#header .nav ul.right li div p{background:#fff;text-align:center;padding:3px 10px;}
+#header .nav ul.right li div{border:1px solid #999;border-top:none;display:none;position:absolute;left:0;top:25px;width:120px;}
+#header .nav ul.right li.hover:hover div{display:block;}
+#header .search{background:#fff;}
+#header .search .center{position:relative;height:125px;}
+#header .search img.left{position:absolute;margin:auto;top:0;bottom:0;left:10px;}
+#header .search img.right{position:absolute;margin:auto;top:0;bottom:0;right:10px;}
+#header .search div.sh input.submit{width:100px;height:45px;background:#EE0A3B;color:#fff;border:none;position:absolute;right:0;top:0;font-size:20px;font-weight:bold;}
+#header .search div.sh{width:490px;height:45px;position:absolute;left:0;margin:auto;top:0;bottom:0;right:0;}
+#header .search div.sh input.text{height:39px;width:372px;border:3px solid #EE0A3B;font-size:16px;padding-left:12px;}
+#header .search div.sh label{position:absolute;left:15px;top:13px;color:#000;}
+#body .banner{background:#FFD253;text-align:center;}
+#body .banner img{display:block;margin:auto;}
+#body .banner1{background:#EE0A3B;}
+#body .banner1 img.float{position:absolute;top:0;left:0;}
+#body .banner1 .center{position:relative;}
+#body .banner1 .center .em{position:absolute;right:0;background:#FF3863;color:#fff;font-size:16px;font-weight:bold;padding:10px 15px;margin-left:5px;top:0}
+#body .banner1 .center .em:hover{transition:background-color 0.8s linear;background:#AC0025}
+#body .banner1 .center .news{background:url(../img/tm/news.png);background-size:cover;width:710px;height:66px;position:absolute;bottom:0;margin:auto;left:0;right:0;}
+#body .banner1 .center .news ul{height:30px;width:500px;margin:5px auto}
+#body .banner1 .center .news ul li a{font-size:16px;color:#fff;font-weight:bold;text-decoration:none;}
+#body .banner1 .center .news ul li a:hover{text-decoration:underline;}
+#body .banner1 .center .news ul li{float:left;height:30px;width:250px;}
+#body .banner1 .center .overflow{width:250px;height:60px;margin:auto;position:absolute;left:0;right:0;top:0;bottom:0;overflow:hidden}
+#body .banner1 .center .news ul.news1{position:absolute;left:0px;top:8px}
+#body .banner1 .center .news ul.news2{position:absolute;left:0px;top:38px}
+#body .team ul li{margin:0 5px;;width:240px;height:320px;;border-bottom:3px solid #FF9600;float:left;position:relative;cursor:pointer;}
+#body .team ul li:hover .border{display:block}
+#body .team ul li .radius{background:#fff;width:75px;height:75px;border-radius:75px;overflow:hidden;text-align:center;position:absolute;margin:auto;top:180px;left:0;right:0;z-index:1;}
+#body .team ul li .bottom{height:60px;width:100%;position:absolute;bottom:0px;background:#F22639;padding-top:40px;}
+#body .team ul li .radius img.logo{position:absolute;top:13px;left:-12px}
+#body .team ul li p{text-align:center;font-size:16px;line-height:25px;font-weight:bold;}
+#body .team ul li p.text1{color:#fff}
+#body .team ul li p.text2{color:#FF9600}
+#body .team ul{width:1000px;height:323px;margin:0px auto 10px auto}
+#body .team{background:#EE0A3B}
+#body .team ul li .border{width:234px;height:317px;border:3px solid #FF9600;z-index:2;position:absolute;top:0px;left:0px;display:none;}
+#footer{background:#000;color:#fff}

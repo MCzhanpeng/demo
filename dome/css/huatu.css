@@ -1,5 +1,5 @@
 *{margin:0;padding:0;list-style:none}
-	body,html{height:100%;width:100%;background:#ccffff;}
+	body,html{height:100%;width:100%;background:#ccffff;overflow:hidden;}
 	h1{text-align:center}
 	header{margin:50px 20px;}
 	section{margin:50px auto;width:1000px;border:5px solid #808080;height:608px;background:#808080}

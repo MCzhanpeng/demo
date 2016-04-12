@@ -1,11 +1,9 @@
-body,html{height:100%;width:200%;}
+body,html{width:100%;}
 body{background:url(../img/indexbg.jpg);height:100%;width:200%;background-attachment:fixed;font-family:"微软雅黑";overflow:hidden}
 .wrap{height:100px;width:80px;transform-style:preserve-3d;transform:perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0px);position:absolute;left:0px;right:0px;top:0px;bottom:0px;margin:auto;}
 .div1{height:100px;width:80px;background:rgba(0,255,255,0.5);position:absolute;left:0px;top:0px;transition:transform 1s;box-shadow:0 0 15px 0 #7beeac;cursor:pointer;border:2px solid rgba(255,255,255,.7);font-size:25px;color:rgba(255,255,255,.7);text-shadow:0 0 15px #fff;text-align:center;line-height:100px;font-weight:bold}
 .s1,.s2,.s3{width:100px;height:50px;background:rgba(0,255,255,0.5);margin:20px 0;line-height:50px;font-size:20px;font-weight:bold;text-align:center;cursor:pointer;border:2px solid rgba(255,255,255,.7);color:#7beeac}
 .s1:hover,.s2:hover,.s3:hover{box-shadow:0 0 15px 0 #7beeac;color:red;transition:color 1s,box-shadow 1s}
-iframe{position:absolute;height:100%;width:100%;left:100%;top:0px;}
-.back{position:absolute;width:100px;height:50px;background:rgba(0,255,255,0.5);line-height:50px;font-size:20px;font-weight:bold;text-align:center;cursor:pointer;border:2px solid rgba(255,255,255,.7);color:#7beeac;left:110%;top:90%;}
 .mynote{position:absolute;width:100px;height:50px;background:rgba(0,255,255,0.5);margin:20px 0;line-height:50px;font-size:20px;font-weight:bold;text-align:center;border:2px solid rgba(255,255,255,.7);}
 .mynote a{color:red;animation:blk 1s infinite alternate}
  @keyframes blk{

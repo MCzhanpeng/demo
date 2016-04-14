@@ -12,10 +12,6 @@
 	$(".s3").click(function(){
 		style3();
 	});
-	$(window).resize(function(){
-		wh=document.documentElement.clientWidth;
-		if(onoff)$("body,html").animate({"scrollLeft":wh+"px"},500);
-	});
 	$(document).mousedown(function(e){
 		var x1 = e.clientX;
 		var y1 = e.clientY;
@@ -36,17 +32,13 @@
 		$(this).unbind("mousemove");
 	})
 	$(".div1").click(function(){
-		console.log($(this).text());
 		if($(this).text()=="null"){
 			alert("对不起，该项有待补充，请选择其他非null模块，谢谢")
 		}else{
 			var index=$(this).index();
-			$("iframe").attr("src","dome/"+src[index]);
 			window.open("dome/"+src[index],"target" )
 		};
 	});
-
-
 
 	//环状样式
 	function style2(){
@@ -56,7 +48,6 @@
 			})
 		})
 	}
-
 	//球状样式
 	function style3(){
 		$(".div1").each(function(i){
@@ -103,6 +94,7 @@
 				})
 		})	
 	}	
+	//初始样式
 	(function style4(){	
 			$("body,html").animate({"scrollLeft":"0px"},500);
 			$(".div1").each(function(i){

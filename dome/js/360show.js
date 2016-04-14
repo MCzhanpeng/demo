@@ -22,6 +22,7 @@
   				num++;
   				_per.value=parseInt(num/aImg.length*100);
   				if(num==aImg.length){
+            _per.parentNode.style.display="none"
   					callback();
   				}
   			}

@@ -3,9 +3,14 @@ function frame2(obj){
 	this.arr=[obj.img1,obj.img2,obj.img3,obj.img4]
 	this.split=obj.split;
 	this.times=obj.times;
-	this.creatDom();
-	this.setTimer();
 	this.id=obj.wrap;
+	this.creatDom();
+	var that=this;
+	window.onload=function(){
+		that.setTimer();
+	}
+	
+	
 }
 frame2.prototype={
 	creatDom:function(){

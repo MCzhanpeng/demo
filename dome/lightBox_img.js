@@ -103,9 +103,9 @@ function LightBox_img(classname){
 		e.preventDefault();
 
 		that.move_x=e.touches[0].pageX-that.x;
-		if(-that.window_width/4<that.move_x&&that.move_x<that.window_width/4)that.onoff=0;
-		if(that.move_x>that.window_width/4)that.onoff=1;
-		if(that.move_x<-that.window_width/4)that.onoff=2;
+		if(-that.window_width/6<that.move_x&&that.move_x<that.window_width/6)that.onoff=0;
+		if(that.move_x>that.window_width/6)that.onoff=1;
+		if(that.move_x<-that.window_width/6)that.onoff=2;
 		$("ul.lightBox_ul").css('left',ul.lightBox_ul_left+that.move_x)
 	}
 	//touchend事件

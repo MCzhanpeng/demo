@@ -2,7 +2,7 @@
 body{background:#2c1418;}
 #wrap{width:900px;height:650px;position:relative;margin:200px auto;}
 #wrap .main{width:570px;height:420px;margin:auto;position:relative;}
-#wrap .left,#wrap .right{cursor:pointer;width:30px;height:44px;position:absolute;top:300px;box-shadow:0 0 7px 0 #fff;}
+#wrap .left,#wrap .right{cursor:pointer;width:30px;height:44px;position:absolute;top:182px;box-shadow:0 0 7px 0 #fff;}
 #wrap .left:hover,#wrap .right:hover{box-shadow:0 0 10px 0 #33ccff;}
 #wrap .left{background:url(../img/flash2_left.gif);left:50px;}
 #wrap .right{background:url(../img/flash2_right.gif);right:50px;}

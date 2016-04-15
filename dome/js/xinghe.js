@@ -1,4 +1,4 @@
-var cv=document.getElementById("cv");
+	var cv=document.getElementById("cv");
 	var day=document.getElementById("day");
 	var x1=document.getElementById("x1");
 	var nums=document.getElementById("num");
@@ -7,9 +7,12 @@ var cv=document.getElementById("cv");
 	var index=0;
 	var bs=1;
 	x1.onclick=function(){
-	bs++;
+		bs++;
 	}
+	var margin_left=(document.body.clientWidth-cv.offsetWidth)/2;
+	cv.style.margin="0 "+margin_left+"px";
 run();
+
 function run(){
 	exe.clearRect(0,0,1000,1000)
 	for(var i=0;i<8;i++){

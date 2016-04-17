@@ -1,6 +1,6 @@
 (function(){
 	//变量定义
-	var index=0,xdeg=0,onoff=0,ydeg=0,wh=document.documentElement.clientWidth,xs=0,src=["3dframe.html","frame.html","frame1.html","frame2.html","frame3.html","index.html","tk.html","game1.html","xinghe.html","huatu.html","frame3.html","360show.html","hitbee.html","article.html","index2.html","zhongkao.html","lightbox.html","test.html"],ys=0;
+	var index=0,xdeg=0,onoff=0,ydeg=0,wh=document.documentElement.clientWidth,xs=0,src=["3dframe.html","frame.html","frame1.html","frame2.html","frame3.html","index.html","tk.html","game1.html","xinghe.html","huatu.html","frame3.html","360show.html","hitbee.html","article.html","index2.html","zhongkao.html","lightbox.html"],ys=0;
 	
 	//事件绑定
 	$(".s1").click(function(){

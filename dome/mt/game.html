@@ -22,12 +22,11 @@
             <div class="key3"></div><p class="_3">X <span></span></p>
         </div>
     </div>
-    <script>
+<script>
+    $(function(){
         var game={
             exe:function(){
                 this.draw_map();
-                document.onkeydown=this.pcmove;
-                this.draw_message();
             },
             floor:1,
             pcAttr:[100,10,10,0],
@@ -82,6 +81,8 @@
                 $(".map .gw2").attr("attr",this.gw[1]);
                 $(".map .gw3").attr("attr",this.gw[2]);
                 $(".title h1").text("第"+this.floor+"层");
+                $(document).bind("keydown",game.pcmove);
+                this.draw_message();
             },
             pcmove:function(e){
                 var keycode=e.keyCode,top=$(".pc").position().top/50,left=$(".pc").position().left/50;
@@ -231,10 +232,8 @@
             }
 
         }
-        window.onload=function(){
-            game.exe();
-        };
-        
-    </script>
+        game.exe();
+    });    
+</script>
  </body>
 </html>
